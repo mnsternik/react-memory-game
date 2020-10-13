@@ -83,7 +83,9 @@ class Board extends Component {
             guessed = guessed.concat(clicked); 
             this.setState({guessed: guessed, clicked: [] })
             this.isGameOver(guessed); 
-        } else this.hideCards(); 
+        } else  {
+            this.hideCards(); 
+        }
     }
 
     isGameOver = guessed => {

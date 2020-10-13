@@ -6,7 +6,7 @@ const Card = props => {
     let classes = 'Card';
     if (!props.flipped) classes = 'Card cover'; 
 
-    let styles = {
+    const styles = {
         backgroundColor: props.color, 
         borderColor: props.flipped ? props.color : null, 
     }
