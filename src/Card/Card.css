@@ -1,0 +1,24 @@
+.Card {
+    width: 24vw;
+    height: 33.1vh; 
+    display: flex;
+    border: 1px solid rgba(221, 189, 189);
+    background-color: rgb(34, 34, 34); 
+    color: rgb(228, 222, 222);
+    flex-grow: 1;
+    justify-content: center;
+    font-size: 80px;
+}
+
+.Card:hover {
+    cursor: pointer;
+}
+
+.cover:hover {
+    background-color: rgb(22, 22, 22) !important;
+}
+
+.question-mark {
+    margin: auto 0;
+    padding: auto 0;
+}
