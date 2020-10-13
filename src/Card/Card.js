@@ -3,8 +3,8 @@ import './Card.css';
 
 const Card = props => {
 
-    let classess = 'Card';
-    if (!props.flipped) classess = 'Card cover'; 
+    let classes = 'Card';
+    if (!props.flipped) classes = 'Card cover'; 
 
     let styles = {
         backgroundColor: props.color, 
@@ -13,7 +13,7 @@ const Card = props => {
 
     return (
         <div 
-            className={classess} 
+            className={classes} 
             style={styles} 
             onClick={props.showCard}             
         >
