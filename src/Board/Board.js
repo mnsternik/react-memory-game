@@ -57,7 +57,7 @@ class Board extends Component {
             });
 
             this.setState({ cards: cards, clicked: [] })
-        }, 1000);
+        }, 500);
     }
 
     showCard = index => {
